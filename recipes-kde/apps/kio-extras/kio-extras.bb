@@ -12,6 +12,7 @@ LIC_FILES_CHKSUM = " \
 inherit kde-apps
 
 DEPENDS += " \
+    libssh \
     qtsvg \
     qtwebengine \
     \
