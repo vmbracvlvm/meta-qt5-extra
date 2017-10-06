@@ -43,7 +43,7 @@ do_compile_prepend() {
 
 do_configure_append() {
     # fix KCONFIG_COMPILER_LOCATION
-    sed -i 's:${STAGING_LIBDIR_NATIVE}:${libdir}:g' ${B}/src/config-kstandarddirs.h
+    sed -i 's:${STAGING_LIBEXECDIR_NATIVE}:${libexecdir}:g' ${B}/src/config-kstandarddirs.h
 }
 
 # native executables
