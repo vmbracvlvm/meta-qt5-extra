@@ -13,7 +13,7 @@ DEPENDS += " \
 "
 
 SRC_URI += " \
-	file://0003-don-t-build-documentation.patch \
+	file://0001-don-t-build-documentation.patch \
 "
 
 # make meinproc5 find kdoctools data

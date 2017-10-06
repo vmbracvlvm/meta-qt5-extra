@@ -8,11 +8,11 @@ LIC_FILES_CHKSUM = " \
 
 inherit kde-kf5 gettext
 
-DEPENDS += "kconfig kcoreaddons kcrash kdbusaddons ki18n kdoctools"
+DEPENDS += "kconfig kcoreaddons kcrash kdbusaddons ki18n kdoctools kdoctools-native"
 
 PV = "${KF5_VERSION}"
-SRC_URI[md5sum] = "c2903ab8cd2d4ecbde8be3a57f1607ad"
-SRC_URI[sha256sum] = "90130adca003f0d583afc1031ba1bd303857a938dd9e596127891c07f4da10a6"
+SRC_URI[md5sum] = "25d13fea84f873dd73832b0503493106"
+SRC_URI[sha256sum] = "2d31c96d8fad235aa2bfc96258ac03d7ec064184fe6a54856f9d7407fbae4a7d"
 
 FILES_${PN} += "${datadir}/kservicetypes5"
 
