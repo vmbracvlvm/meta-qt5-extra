@@ -11,13 +11,18 @@ DEPENDS += " \
     plasma-framework \
     kdeclarative \
     kio \
-    kdelibs4support \
     kactivities \
     baloo \
+    kcoreaddons-native \
+    kconfig-native \
+    kauth-native \
+    sonnet-native \
+    kpackage-native \
+    kdesignerplugin-native \
 "
 
 SRC_URI = "git://anongit.kde.org/${BPN}.git"
-SRCREV = "ac97dd0264d3273cc93a70f6efd722bb2215d806"
+SRCREV = "05676493808bbfafbc867392c541f799c8e25779"
 S = "${WORKDIR}/git"
 # Did not find version anywhere
 PV = "0.0.0+git${SRCPV}"
