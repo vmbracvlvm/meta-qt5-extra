@@ -6,6 +6,7 @@ inherit kde-kf5
 
 # Is that true: We are depending on plasma-framework and are a tier2??
 DEPENDS += " \
+    qtquickcontrols2 \
     plasma-framework \
 "
 
