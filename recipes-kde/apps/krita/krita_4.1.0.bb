@@ -52,6 +52,8 @@ do_configure_append() {
 LDFLAGSGL = "-lGLESv2"
 LDFLAGS += "${LDFLAGSGL}"
 
+LDFLAGS += "${@bb.utils.contains('DISTRO_FEATURES', 'ld-is-gold', '-Wl,--no-fatal-warnings', '', d)}"
+
 FILES_${PN} += " \
     ${datadir}/color \
     ${datadir}/color-schemes \
